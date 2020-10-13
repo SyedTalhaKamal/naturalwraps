@@ -1,0 +1,36 @@
+
+    .section-padding{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
+    .brand-carousel {
+    background: transparent;
+    margin-top: 0px;
+    }
+    .owl-dots {
+    text-align: center;
+    margin-top: 4%;
+    }
+    .owl-dot {
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #878787 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 0 5px;
+    }
+    .owl-dot.active {
+    background-color: #000 !important;
+    }
+    .owl-carousel .owl-item img{
+        width: 70% !important;
+    }
+
+    @media (max-width: 480px) {
+        
+        .single-logo{
+            margin: 0px 0px 0px 20% ;
+    
+        }
+    }

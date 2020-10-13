@@ -1,0 +1,802 @@
+.mainImg {
+  background-image: url('images/bgs_01.jpg');
+  background-size: cover;
+  background-position-x: center;
+  padding-bottom: 100px;
+}
+
+.fa-envelope,
+.fa-phone,
+.headerIcon {
+  display: inline-block;
+  color: #f3f3f3;
+  /* padding-left: 20px; */
+}
+
+.headerIcon {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+}
+
+.fa-bars {
+  color: #f3f3f3;
+  background-color: #e3ad55;
+  padding: 8px;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.fa-search,
+.fa-user,
+.fa-shopping-cart {
+  color: #f3f3f3;
+  padding-left: 20px;
+}
+
+.fa-search {
+  margin-left: 50px;
+}
+
+.fa-envelope {
+  margin-left: 39px;
+}
+
+/* The side navigation menu */
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }  */
+
+.headerText {
+  text-align: center;
+  color: white;
+  margin-top: 88px;
+}
+
+.welcomehead {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #e3ad55;
+}
+
+.handmade {
+  font-family: 'Dancing Script', cursive;
+  font-size: 82.21px;
+}
+
+.handmadeBeeswax {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+}
+
+.shop {
+  font-family: 'Courgette', cursive;
+  font-size: 24px;
+  color: #e3ad55;
+}
+
+.shop::before,
+.shop::after {
+  display: inline-block;
+  content: "";
+  border-top: .1rem solid white;
+  width: 9rem;
+  margin: -0.5rem 1rem;
+  transform: translateY(-1rem);
+}
+
+/* First Section */
+
+.firstSectionMain {
+  margin-top: -40px;
+}
+
+.bgLight {
+  background-color: #e3ad55;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24.33px;
+  color: #111111;
+  border-bottom: 1px solid white;
+}
+
+.bgDark {
+  background-color: #db9f3d;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24.33px;
+  color: #111111;
+  border-bottom: 1px solid white;
+
+}
+
+.firstSection {
+  padding: 19px 40px 19px 15px;
+}
+
+.firstSectionShop {
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  padding-bottom: 19px;
+  padding-left: 35px;
+}
+
+.firstSection1 {
+  padding-top: 48px;
+}
+
+a.firstSectionShop {
+  text-decoration: none;
+}
+
+/* About */
+
+.about {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 70px;
+  color: #111111;
+}
+
+.about::before,
+.about::after {
+  display: inline-block;
+  content: "";
+  border-top: .1rem solid #e3ad55;
+  width: 4rem;
+  margin: -0.5rem 1rem;
+  transform: translateY(-1rem);
+}
+
+.aboutp {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+}
+
+.Learn {
+  /* margin-left: 50%;
+    margin-right: 50%; */
+  background-color: #506602;
+  color: white;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+/* Featured */
+
+.featured {
+  background-image: url('images/bgs_03.jpg');
+  background-size: cover;
+  background-position-x: center;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+
+.featuredH {
+  text-align: center;
+  color: 46.95px;
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+.featuredProductH{
+  color: white;
+  font-size: 18px;
+  margin-left: 22px;
+  margin-top: 30px;
+  font-weight: normal;
+  margin-left: 15%;
+
+
+}
+.featuredPrice{
+  color: #e3ad55;
+  font-size: 18px;
+  font-family: 'Courgette', cursive;
+  margin-left: 25%;
+}
+.featuredCart{
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+  text-decoration: underline;
+  margin-left: 20%;
+
+}
+/* Plastic Use */
+
+.plasticH {
+  margin-top: 60px;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: #111111;
+}
+
+.plasticLi {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+}
+
+.fa-check-circle,
+.fa-map-marker {
+  color: #e3ad55;
+}
+
+#footerPhone,
+#footerMail {
+  padding: 0px;
+  color: #e3ad55;
+  margin: 0px;
+}
+
+.plasticImg1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.plasticImg2 {
+  margin-bottom: 20px;
+}
+
+.plasticImg3 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+/* Video Section */
+
+.videoSection {
+  background-image: url('images/bgs_05.jpg');
+  margin-top: 70px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 170px 0px;
+}
+
+.videoImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+  height: auto;
+}
+
+/* Footer Links */
+
+.footerLinks {
+  margin-top: 70px;
+  margin-bottom: 50px
+}
+
+.socialIcon {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.footerHeading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #111111;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.footerLinksLi {
+  list-style: none;
+  color: #666666;
+  font-size: 14px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.footerLinksContact {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.footerImg {
+  width: 70px;
+  height: auto;
+}
+
+/* Footer Copyright */
+
+.footerText {
+  background-color: #476200;
+  text-align: center;
+  padding: 5px 0px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.footerNatural {
+  font-family: 'Dancing Script', cursive;
+}
+
+@media (max-width: 991px) {
+  .mainImg {
+    background-image: url('images/bgs_01.jpg');
+    background-size: cover;
+    background-position-x: center;    padding-bottom: 100px;
+  }
+  .fa-envelope,
+  .fa-phone,
+  .headerIcon {
+    display: inline-block;
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 0.7rem;
+  }
+  .fa-envelope {
+    margin-left: 13px;
+  }
+  .fa-search,
+  .fa-user,
+  .fa-shopping-cart {
+    color: #f3f3f3;
+    padding-left: 5px;
+  }
+  .fa-search {
+    margin-left: 0px;
+  }
+  .fa-bars {
+    position: relative;
+    right: 250%;
+    bottom: 43%;
+    color: #f3f3f3;
+    background-color: #e3ad55;
+    padding: 8px;
+    font-size: 20px;
+  }
+  .mylogo {
+    width: 70px;
+    height: 70px;
+  }
+  .headerText {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+  }
+  .welcomehead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #e3ad55;
+  }
+  .handmade {
+    font-family: 'Dancing Script', cursive;
+    font-size: 52.21px;
+  }
+  .handmadeBeeswax {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 10px;
+  }
+  .shop {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    color: #e3ad55;
+  }
+  .shop::before,
+  .shop::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 7rem;
+    margin: -0.5rem 1rem;
+    transform: translateY(-1rem);
+  }
+  .plasticImg1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .plasticImg2 {
+    margin-bottom: 0px;
+  }
+  .plasticImg3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainImg {
+    background-image: url('images/bgs_01.jpg');
+    background-size: cover;
+    background-position-x: center;
+    padding-bottom: 100px;
+  }
+  .fa-envelope,
+  .fa-phone,
+  .headerIcon {
+    display: inline-block;
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 0.5rem;
+  }
+  .fa-envelope {
+    margin-left: 9px;
+  }
+  .fa-search,
+  .fa-user,
+  .fa-shopping-cart {
+    color: #f3f3f3;
+    padding-left: 3px;
+  }
+  .fa-search {
+    margin-left: 0px;
+  }
+  .fa-bars {
+    position: relative;
+    right: 455%;
+    bottom: 43%;
+    color: #f3f3f3;
+    background-color: #e3ad55;
+    padding: 8px;
+    font-size: 20px;
+  }
+  .mylogo {
+    width: 50px;
+    height: 50px;
+  }
+  .headerText {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+  }
+  .welcomehead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #e3ad55;
+  }
+  .handmade {
+    font-family: 'Dancing Script', cursive;
+    font-size: 42.21px;
+  }
+  .handmadeBeeswax {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 9px;
+  }
+  .shop {
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    color: #e3ad55;
+  }
+  .shop::before,
+  .shop::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 5rem;
+    margin: -0.5rem 1rem;
+    transform: translateY(-1rem);
+  }
+  .plasticImg1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .plasticImg2 {
+    margin-bottom: 0px;
+  }
+  .plasticImg3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mainImg {
+    background-image: url('images/bgs_01.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+    position: relative;
+  }
+  .fa-envelope,
+  .fa-phone,
+  .headerIcon {
+    display: inline-block;
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 6.7px;
+  }
+  .fa-envelope {
+    margin-left: 0px;
+  }
+  .fa-search,
+  .fa-user,
+  .fa-shopping-cart {
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 10.6px
+  }
+  .fa-search {
+    margin-left: 0px;
+  }
+  .fa-bars {
+    position: relative;
+    left: 78%;
+    bottom: 129%;
+    color: #f3f3f3;
+    background-color: #e3ad55;
+    padding: 8px;
+    font-size: 20px;
+  }
+  .mylogo {
+    width: 50px;
+    height: 50px;
+  }
+  .headerText {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 96px;
+    right: 0px;
+  }
+  .welcomehead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #e3ad55;
+  }
+  .handmade {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22.21px;
+  }
+  .handmadeBeeswax {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 8px;
+  }
+  .shop {
+    font-family: 'Courgette', cursive;
+    font-size: 14px;
+    color: #e3ad55;
+  }
+  .shop::before,
+  .shop::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 3rem;
+    margin: -0.5rem 1rem;
+    transform: translateY(-1rem);
+  }
+}
+
+@media (max-width: 550px) {
+  .mainImg {
+    background-image: url('images/bgs_01.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+    position: relative;
+  }
+  .fa-envelope,
+  .fa-phone,
+  .headerIcon {
+    display: inline-block;
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 6.7px;
+  }
+  .fa-envelope {
+    margin-left: 0px;
+  }
+  .fa-search,
+  .fa-user,
+  .fa-shopping-cart {
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 10.6px
+  }
+  .fa-search {
+    margin-left: 0px;
+  }
+  .fa-bars {
+    position: relative;
+    left: 78%;
+    bottom: 129%;
+    color: #f3f3f3;
+    background-color: #e3ad55;
+    padding: 8px;
+    font-size: 20px;
+  }
+  .mylogo {
+    width: 50px;
+    height: 50px;
+  }
+  .headerText {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 76px;
+    right: 0px;
+  }
+  .welcomehead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #e3ad55;
+  }
+  .handmade {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22.21px;
+  }
+  .handmadeBeeswax {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 8px;
+  }
+  .shop {
+    font-family: 'Courgette', cursive;
+    font-size: 14px;
+    color: #e3ad55;
+  }
+  .shop::before,
+  .shop::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 3rem;
+    margin: -0.5rem 1rem;
+    transform: translateY(-1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .mainImg {
+    background-image: url('images/bgs_01.jpg');
+    background-size: cover;
+    background-position-x: center;
+    height: auto;
+    position: relative;
+  }
+  .fa-envelope,
+  .fa-phone,
+  .headerIcon {
+    display: inline-block;
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 6.7px;
+  }
+  .fa-envelope {
+    margin-left: 0px;
+  }
+  .fa-search,
+  .fa-user,
+  .fa-shopping-cart {
+    color: #f3f3f3;
+    padding-left: 0px;
+    font-size: 10.6px
+  }
+  .fa-search {
+    margin-left: 0px;
+  }
+  .fa-bars {
+    position: relative;
+    left: 78%;
+    bottom: 129%;
+    color: #f3f3f3;
+    background-color: #e3ad55;
+    padding: 8px;
+    font-size: 20px;
+  }
+  .mylogo {
+    width: 50px;
+    height: 50px;
+  }
+  .headerText {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 76px;
+    right: 0px;
+  }
+  .welcomehead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #e3ad55;
+  }
+  .handmade {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22.21px;
+  }
+  .handmadeBeeswax {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 8px;
+  }
+  .shop {
+    font-family: 'Courgette', cursive;
+    font-size: 14px;
+    color: #e3ad55;
+  }
+  .shop::before,
+  .shop::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 3rem;
+    margin: -0.5rem 1rem;
+    transform: translateY(-1rem);
+  }
+  .plasticImg1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .plasticImg2 {
+    margin-bottom: 0px;
+  }
+  .plasticImg3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
